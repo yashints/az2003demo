@@ -41,7 +41,5 @@ jobs:
           containerAppName: album-ui
           resourceGroup: az2003
           imageToBuild: az2003acrdemo.azurecr.io/album-ui:${{ github.sha }}
-          _buildArgumentsKey_: |
-            _buildArgumentsValues_
 
 
